@@ -1,0 +1,180 @@
+/*****************************************************************
+ * Fonts
+ *****************************************************************/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+/*****************************************************************
+ * CSS Resets
+ *****************************************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/*****************************************************************
+ * Base Root styles
+ *****************************************************************/
+
+body {
+  background-color: #e9eff3!important;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+  color: #222;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*****************************************************************
+ * Typography
+ *****************************************************************/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+a {
+  color: #222;
+}
+
+input {
+  border-radius: 0;
+}
+
+/*****************************************************************
+ * ADDITIONAL CSS
+ *****************************************************************/
+
+
+.form-control {
+  border-radius: 0px !important;
+  border: 1px solid #dfe7ed;
+}
+
+h4 {
+    font-size: 18px;
+    border-bottom: 2px solid #dfe7ed;
+    padding-bottom: 10px;
+  }
+
+ #signin-form {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  float: right;
+  height: 340px;
+  width: 350px;
+  margin: 0 auto 20px;
+  padding: 19px 29px 29px;
+  margin-top: 150px;
+}
+
+#registration-form  {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  float: left;
+  height: 340px;
+  width: 350px;
+  margin: 0 auto 20px;
+  margin-top: 150px;
+  padding: 19px 29px 29px;
+}
+
+
+#signin-button {
+  position: absolute;
+  top: 424px;
+}
+
+
+
+#registration-button {
+  position: absolute;
+  top: 424px;
+}
+
+
+
+.submit-button {
+  background-color: #0099ff;
+  font-weight: normal;
+  color: white;
+  padding: 7px;
+  border: 1px solid #0099ff;
+  border-radius: 0px;
+  height: 40px;
+  width: 180px;
+  max-width: auto;
+  max-height: auto;
+  top: 140px;
+}
+
+/*****************************************************************
+ * MOBILE RESPONSIVENESS
+ *****************************************************************/
+
+@media (max-width: 768px) {
+  #signin-form,
+  #registration-form {
+    float: none;
+    margin: 20px auto;
+  }
+
+  #signin-button {
+    position: absolute;
+    top: 274px;
+  }
+
+  #registration-button {
+    position: absolute;
+    top: 274px;
+  }
+}
