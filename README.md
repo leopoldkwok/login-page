@@ -36,15 +36,15 @@ Add an error message if the email or password are not correct.
 
 1. Download the project files.
 
-$ git clone https://github.com/leopoldkwok/login-page.git
+    $ git clone https://github.com/leopoldkwok/login-page.git
 
 2. Enter the project directory.
 
-$ cd login-page
+    $ cd login-page
 
 3. Install npm modules and dependencies
 
-$ npm i
+    $ npm i
 
 4. type gulp to process the files.
 

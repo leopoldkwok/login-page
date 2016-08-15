@@ -94,30 +94,29 @@ input {
  * ADDITIONAL CSS
  *****************************************************************/
 
-
 .form-control {
-  border-radius: 0px !important;
   border: 1px solid #dfe7ed;
+  border-radius: 0px !important;
 }
 
 h4 {
-    font-size: 18px;
-    border-bottom: 2px solid #dfe7ed;
-    padding-bottom: 10px;
-  }
+  border-bottom: 2px solid #dfe7ed;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
 
- #signin-form {
+#signin-form {
   background-color: #fff;
   border: 1px solid #e5e5e5;
   float: right;
   height: 340px;
   width: 350px;
   margin: 0 auto 20px;
-  padding: 19px 29px 29px;
   margin-top: 150px;
+  padding: 19px 29px 29px;
 }
 
-#registration-form  {
+#registration-form {
   background-color: #fff;
   border: 1px solid #e5e5e5;
   float: left;
@@ -128,32 +127,27 @@ h4 {
   padding: 19px 29px 29px;
 }
 
-
 #signin-button {
   position: absolute;
   top: 424px;
 }
-
-
 
 #registration-button {
   position: absolute;
   top: 424px;
 }
 
-
-
 .submit-button {
   background-color: #0099ff;
-  font-weight: normal;
-  color: white;
-  padding: 7px;
   border: 1px solid #0099ff;
   border-radius: 0px;
+  color: #000000;
+  font-weight: normal;
   height: 40px;
   width: 180px;
   max-width: auto;
   max-height: auto;
+  padding: 7px;
   top: 140px;
 }
 
